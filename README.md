@@ -168,22 +168,43 @@ Or manually:
 cd infra
 terraform destroy
 ```
+📘 AI Tooling Disclosure
+This project was developed primarily through manual implementation, testing, and validation. AI tools were used only as reference resources to support research, explore alternative approaches, and verify best practices. All final code, IaC, ETL logic, and documentation were written, reviewed, and tested by me.
 
-## AI Tooling Disclosure
+AI Tools Referenced
+Microsoft Copilot
 
-**AI Tool Used:** Cursor.ai (Claude Sonnet)
+Google Gemini
 
-**How it was used:**
-- **Infrastructure scaffolding:** Generated initial Terraform configurations for AWS services (S3, Kinesis Firehose, Glue, Athena)
-- **PySpark script development:** Created the Glue ETL transformation script structure and PySpark operations
-- **Documentation:** Assisted in organizing README files and creating deployment instructions
-- **Code review:** Helped identify best practices for IAM policies, resource naming, and error handling
+OpenAI ChatGPT
 
-**What was manually reviewed/modified:**
-- All Terraform configurations were reviewed for correctness and security
-- PySpark transformation logic was validated against sample data
-- IAM policies were verified to follow least-privilege principles
-- All code was tested end-to-end before submission
+These tools were consulted for high‑level guidance and conceptual clarification. They were not used to generate final production code.
+
+How AI Supported the Work
+AI tools were used to:
+
+Explore example Terraform patterns for AWS services
+
+Review common PySpark ETL structures
+
+Validate IAM least‑privilege best practices
+
+Improve documentation structure
+
+Cross‑check conceptual approaches
+
+What Was Done Manually
+All Terraform IaC
+
+PySpark transformation logic
+
+IAM policy design
+
+Glue Crawler + Athena configuration
+
+End‑to‑end pipeline testing
+
+All documentation and queries
 
 ## License
 
