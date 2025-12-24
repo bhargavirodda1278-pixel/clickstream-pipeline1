@@ -1,4 +1,4 @@
-# Clickstream Data Pipeline
+# Serverless Clickstream Data Pipeline
 
 A serverless data engineering pipeline for processing clickstream events on AWS.
 
@@ -174,12 +174,12 @@ This project was developed primarily through manual implementation, testing, and
 ## AI Tools Referenced
 Microsoft Copilot
 
-Google Gemini
+- Google Gemini
 
-These tools were consulted for high‑level guidance and conceptual clarification. They were not used to generate final production code.
+- These tools were consulted for high‑level guidance and conceptual clarification. They were not used to generate final production code.
 
 ## How AI Supported the Work
-## AI tools were used to:
+AI tools were used to:
 
 - Explore example Terraform patterns for AWS services
 
@@ -191,7 +191,7 @@ These tools were consulted for high‑level guidance and conceptual clarificatio
 
 - Cross‑check conceptual approaches
 
-### What Was Done Manually
+## What Was Done Manually
 - All Terraform IaC
 
 - PySpark transformation logic
@@ -202,8 +202,8 @@ These tools were consulted for high‑level guidance and conceptual clarificatio
 
 - End‑to‑end pipeline testing
 
-### All documentation and queries
-This project was developed primarily through manual implementation, testing, and validation. AI tools were used only as reference resources to support research, explore alternative approaches, and verify best practices. All final code, IaC, ETL logic, and documentation were written, reviewed, and tested by me.
+- All documentation and SQL queries
+
 
 ## License
 
