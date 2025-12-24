@@ -181,26 +181,26 @@ These tools were consulted for high‑level guidance and conceptual clarificatio
 ## How AI Supported the Work
 ## AI tools were used to:
 
-1. ***Explore example Terraform patterns for AWS services**
+***Explore example Terraform patterns for AWS services**
 
-2. ***Review common PySpark ETL structures***
+***Review common PySpark ETL structures***
 
-3.***Validate IAM least‑privilege best practices***
+***Validate IAM least‑privilege best practices***
 
-4.***Improve documentation structure***
+***Improve documentation structure***
 
-5.***Cross‑check conceptual approaches***
+***Cross‑check conceptual approaches***
 
 ### What Was Done Manually
-***All Terraform IaC***
+- All Terraform IaC
 
-***PySpark transformation logic***
+- PySpark transformation logic
 
-***IAM policy design***
+- IAM policy design
 
-***Glue Crawler + Athena configuration***
+- Glue Crawler + Athena configuration
 
-***End‑to‑end pipeline testing***
+- End‑to‑end pipeline testing
 
 ### All documentation and queries
 This project was developed primarily through manual implementation, testing, and validation. AI tools were used only as reference resources to support research, explore alternative approaches, and verify best practices. All final code, IaC, ETL logic, and documentation were written, reviewed, and tested by me.
