@@ -181,15 +181,15 @@ These tools were consulted for high‑level guidance and conceptual clarificatio
 ## How AI Supported the Work
 ## AI tools were used to:
 
-***Explore example Terraform patterns for AWS services**
+- Explore example Terraform patterns for AWS services
 
-***Review common PySpark ETL structures***
+- Review common PySpark ETL structures
 
-***Validate IAM least‑privilege best practices***
+- Validate IAM least‑privilege best practices
 
-***Improve documentation structure***
+- Improve documentation structure
 
-***Cross‑check conceptual approaches***
+- Cross‑check conceptual approaches
 
 ### What Was Done Manually
 - All Terraform IaC
