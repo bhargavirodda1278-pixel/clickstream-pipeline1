@@ -168,43 +168,42 @@ Or manually:
 cd infra
 terraform destroy
 ```
-📘 AI Tooling Disclosure
+## AI Tooling Disclosure
 This project was developed primarily through manual implementation, testing, and validation. AI tools were used only as reference resources to support research, explore alternative approaches, and verify best practices. All final code, IaC, ETL logic, and documentation were written, reviewed, and tested by me.
 
-AI Tools Referenced
+## AI Tools Referenced
 Microsoft Copilot
 
 Google Gemini
 
-OpenAI ChatGPT
-
 These tools were consulted for high‑level guidance and conceptual clarification. They were not used to generate final production code.
 
-How AI Supported the Work
-AI tools were used to:
+## How AI Supported the Work
+## AI tools were used to:
 
-Explore example Terraform patterns for AWS services
+1. ***Explore example Terraform patterns for AWS services**
 
-Review common PySpark ETL structures
+2. ***Review common PySpark ETL structures***
 
-Validate IAM least‑privilege best practices
+3.***Validate IAM least‑privilege best practices***
 
-Improve documentation structure
+4.***Improve documentation structure***
 
-Cross‑check conceptual approaches
+5.***Cross‑check conceptual approaches***
 
-What Was Done Manually
-All Terraform IaC
+### What Was Done Manually
+***All Terraform IaC***
 
-PySpark transformation logic
+***PySpark transformation logic***
 
-IAM policy design
+***IAM policy design***
 
-Glue Crawler + Athena configuration
+***Glue Crawler + Athena configuration***
 
-End‑to‑end pipeline testing
+***End‑to‑end pipeline testing***
 
-All documentation and queries
+### All documentation and queries
+This project was developed primarily through manual implementation, testing, and validation. AI tools were used only as reference resources to support research, explore alternative approaches, and verify best practices. All final code, IaC, ETL logic, and documentation were written, reviewed, and tested by me.
 
 ## License
 
