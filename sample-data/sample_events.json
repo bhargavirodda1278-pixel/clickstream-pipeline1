@@ -1,0 +1,278 @@
+[
+  {
+    "event_id": "evt_001",
+    "user_id": "user_12345",
+    "session_id": "session_abc123",
+    "event_type": "page_view",
+    "timestamp": "2025-12-23T10:15:30.123Z",
+    "page_url": "https://example.com/",
+    "device_type": "desktop",
+    "referrer": "https://google.com"
+  },
+  {
+    "event_id": "evt_002",
+    "user_id": "user_12345",
+    "session_id": "session_abc123",
+    "event_type": "product_view",
+    "timestamp": "2025-12-23T10:16:45.456Z",
+    "page_url": "https://example.com/products/laptop-pro",
+    "product_id": "prod_001",
+    "product_name": "Laptop Pro 15",
+    "product_category": "Electronics",
+    "price": 1299.99,
+    "device_type": "desktop",
+    "referrer": "https://example.com/"
+  },
+  {
+    "event_id": "evt_003",
+    "user_id": "user_12345",
+    "session_id": "session_abc123",
+    "event_type": "add_to_cart",
+    "timestamp": "2025-12-23T10:17:12.789Z",
+    "product_id": "prod_001",
+    "product_name": "Laptop Pro 15",
+    "product_category": "Electronics",
+    "price": 1299.99,
+    "quantity": 1,
+    "device_type": "desktop"
+  },
+  {
+    "event_id": "evt_004",
+    "user_id": "user_67890",
+    "session_id": "session_xyz789",
+    "event_type": "page_view",
+    "timestamp": "2025-12-23T10:18:20.234Z",
+    "page_url": "https://example.com/",
+    "device_type": "mobile",
+    "referrer": "https://facebook.com"
+  },
+  {
+    "event_id": "evt_005",
+    "user_id": "user_67890",
+    "session_id": "session_xyz789",
+    "event_type": "search",
+    "timestamp": "2025-12-23T10:19:05.567Z",
+    "page_url": "https://example.com/search?q=wireless+headphones",
+    "device_type": "mobile"
+  },
+  {
+    "event_id": "evt_006",
+    "user_id": "user_67890",
+    "session_id": "session_xyz789",
+    "event_type": "product_view",
+    "timestamp": "2025-12-23T10:20:30.890Z",
+    "page_url": "https://example.com/products/wireless-headphones-pro",
+    "product_id": "prod_002",
+    "product_name": "Wireless Headphones Pro",
+    "product_category": "Electronics",
+    "price": 249.99,
+    "device_type": "mobile"
+  },
+  {
+    "event_id": "evt_007",
+    "user_id": "user_67890",
+    "session_id": "session_xyz789",
+    "event_type": "add_to_cart",
+    "timestamp": "2025-12-23T10:21:15.123Z",
+    "product_id": "prod_002",
+    "product_name": "Wireless Headphones Pro",
+    "product_category": "Electronics",
+    "price": 249.99,
+    "quantity": 1,
+    "device_type": "mobile"
+  },
+  {
+    "event_id": "evt_008",
+    "user_id": "user_12345",
+    "session_id": "session_abc123",
+    "event_type": "checkout_start",
+    "timestamp": "2025-12-23T10:22:45.456Z",
+    "device_type": "desktop"
+  },
+  {
+    "event_id": "evt_009",
+    "user_id": "user_12345",
+    "session_id": "session_abc123",
+    "event_type": "payment_info",
+    "timestamp": "2025-12-23T10:24:10.789Z",
+    "device_type": "desktop"
+  },
+  {
+    "event_id": "evt_010",
+    "user_id": "user_12345",
+    "session_id": "session_abc123",
+    "event_type": "purchase",
+    "timestamp": "2025-12-23T10:25:30.012Z",
+    "product_id": "prod_001",
+    "product_name": "Laptop Pro 15",
+    "product_category": "Electronics",
+    "price": 1299.99,
+    "quantity": 1,
+    "device_type": "desktop"
+  },
+  {
+    "event_id": "evt_011",
+    "user_id": "user_11111",
+    "session_id": "session_def456",
+    "event_type": "page_view",
+    "timestamp": "2025-12-23T10:26:00.345Z",
+    "page_url": "https://example.com/categories/clothing",
+    "device_type": "tablet",
+    "referrer": "https://example.com/"
+  },
+  {
+    "event_id": "evt_012",
+    "user_id": "user_11111",
+    "session_id": "session_def456",
+    "event_type": "product_view",
+    "timestamp": "2025-12-23T10:27:30.678Z",
+    "page_url": "https://example.com/products/t-shirt-blue",
+    "product_id": "prod_003",
+    "product_name": "Blue Cotton T-Shirt",
+    "product_category": "Clothing",
+    "price": 29.99,
+    "device_type": "tablet"
+  },
+  {
+    "event_id": "evt_013",
+    "user_id": "user_11111",
+    "session_id": "session_def456",
+    "event_type": "product_view",
+    "timestamp": "2025-12-23T10:29:00.901Z",
+    "page_url": "https://example.com/products/jeans-slim-fit",
+    "product_id": "prod_004",
+    "product_name": "Slim Fit Jeans",
+    "product_category": "Clothing",
+    "price": 79.99,
+    "device_type": "tablet"
+  },
+  {
+    "event_id": "evt_014",
+    "user_id": "user_11111",
+    "session_id": "session_def456",
+    "event_type": "add_to_cart",
+    "timestamp": "2025-12-23T10:29:45.234Z",
+    "product_id": "prod_004",
+    "product_name": "Slim Fit Jeans",
+    "product_category": "Clothing",
+    "price": 79.99,
+    "quantity": 2,
+    "device_type": "tablet"
+  },
+  {
+    "event_id": "evt_015",
+    "user_id": "user_22222",
+    "session_id": "session_ghi789",
+    "event_type": "login",
+    "timestamp": "2025-12-23T10:30:15.567Z",
+    "page_url": "https://example.com/login",
+    "device_type": "desktop"
+  },
+  {
+    "event_id": "evt_016",
+    "user_id": "user_22222",
+    "session_id": "session_ghi789",
+    "event_type": "page_view",
+    "timestamp": "2025-12-23T10:31:00.890Z",
+    "page_url": "https://example.com/account/wishlist",
+    "device_type": "desktop"
+  },
+  {
+    "event_id": "evt_017",
+    "user_id": "user_67890",
+    "session_id": "session_xyz789",
+    "event_type": "remove_from_cart",
+    "timestamp": "2025-12-23T10:32:20.123Z",
+    "product_id": "prod_002",
+    "product_name": "Wireless Headphones Pro",
+    "product_category": "Electronics",
+    "price": 249.99,
+    "quantity": 1,
+    "device_type": "mobile"
+  },
+  {
+    "event_id": "evt_018",
+    "user_id": "user_33333",
+    "session_id": "session_jkl012",
+    "event_type": "signup",
+    "timestamp": "2025-12-23T10:33:45.456Z",
+    "page_url": "https://example.com/signup",
+    "device_type": "mobile"
+  },
+  {
+    "event_id": "evt_019",
+    "user_id": "user_33333",
+    "session_id": "session_jkl012",
+    "event_type": "page_view",
+    "timestamp": "2025-12-23T10:35:00.789Z",
+    "page_url": "https://example.com/welcome",
+    "device_type": "mobile"
+  },
+  {
+    "event_id": "evt_020",
+    "user_id": "user_11111",
+    "session_id": "session_def456",
+    "event_type": "checkout_start",
+    "timestamp": "2025-12-23T10:36:30.012Z",
+    "device_type": "tablet"
+  },
+  {
+    "event_id": "evt_021",
+    "user_id": "user_11111",
+    "session_id": "session_def456",
+    "event_type": "purchase",
+    "timestamp": "2025-12-23T10:38:15.345Z",
+    "product_id": "prod_004",
+    "product_name": "Slim Fit Jeans",
+    "product_category": "Clothing",
+    "price": 79.99,
+    "quantity": 2,
+    "device_type": "tablet"
+  },
+  {
+    "event_id": "evt_022",
+    "user_id": "user_44444",
+    "session_id": "session_mno345",
+    "event_type": "page_view",
+    "timestamp": "2025-12-23T10:40:00.678Z",
+    "page_url": "https://example.com/categories/home",
+    "device_type": "desktop",
+    "referrer": "https://bing.com"
+  },
+  {
+    "event_id": "evt_023",
+    "user_id": "user_44444",
+    "session_id": "session_mno345",
+    "event_type": "category_view",
+    "timestamp": "2025-12-23T10:41:20.901Z",
+    "page_url": "https://example.com/categories/home/furniture",
+    "device_type": "desktop"
+  },
+  {
+    "event_id": "evt_024",
+    "user_id": "user_44444",
+    "session_id": "session_mno345",
+    "event_type": "product_view",
+    "timestamp": "2025-12-23T10:42:45.234Z",
+    "page_url": "https://example.com/products/office-chair",
+    "product_id": "prod_005",
+    "product_name": "Ergonomic Office Chair",
+    "product_category": "Furniture",
+    "price": 399.99,
+    "device_type": "desktop"
+  },
+  {
+    "event_id": "evt_025",
+    "user_id": "user_44444",
+    "session_id": "session_mno345",
+    "event_type": "add_to_cart",
+    "timestamp": "2025-12-23T10:44:10.567Z",
+    "product_id": "prod_005",
+    "product_name": "Ergonomic Office Chair",
+    "product_category": "Furniture",
+    "price": 399.99,
+    "quantity": 1,
+    "device_type": "desktop"
+  }
+]
+
